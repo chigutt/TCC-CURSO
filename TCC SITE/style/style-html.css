@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Tilt+Prism&display=swap');
+
+:root {
+    --cor--primaria: #794e17;
+    --cor--secundaria: rgb(255, 255, 255);
+    --cor--terciaria: #F6F6F6;  
+    --cor--hover: #272727;
+
+    --fonte--primaria: 'Tilt Prims' , sans-serif;
+    --fonte--secundaria: 'monospace' , sans-serif;
+    --fonte--terciaria: 'sans-serif' 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor--primaria);
+    color: var(--cor--terciaria)
+}
+
+.cabecalho{
+    padding: 2% 10% 0% 10%;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+.cabecalho-menu-link{
+    font-family: var(--fonte--terciaria);
+    font-size: 20px;
+    font-weight: 550;
+    color: var(--cor--secundaria);
+    text-decoration: none;
+}
+
+.titulo_destaque{
+    color: var(--cor--secundaria)
+}
+
+.apresentação-html{
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px 0px 200px;
+}
+
+.sessao{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo-html{
+    font-size: 32px;
+    font-family: var(--fonte--primaria);
+    text-align: center;
+    align-items: center;
+}
+
+.texto-html{
+    font-size: 16px;
+    font-family: var(--fonte--secundaria);
+    text-align: center;
+    align-items: center;
+}
+
+.rodape{
+    background-color: var(--cor--secundaria);
+    text-align: center;
+    color: black;
+    font-family: var(--fonte--secundaria);
+}
+
+.lista{
+    font-family: var(--fonte--primaria);
+    text-align: center;
+    align-items: center;
+}
